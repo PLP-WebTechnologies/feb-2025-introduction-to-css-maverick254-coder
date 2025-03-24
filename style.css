@@ -1,0 +1,39 @@
+/* External CSS File for styling HTML elements */
+
+/* 
+    1. Class Selector: Styles the title text
+    - Sets font size, font family, color, and text alignment
+*/
+.title {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #041a30;
+    text-align: center;
+}
+
+/* 
+    2. ID Selector: Styles the paragraph with ID "intro"
+    - Sets font properties, margins, padding, and border
+*/
+#intro {
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    color: #444;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid #041a30;
+}
+
+/* 
+    3. Element Selector: Styles all images
+    - Adjusts width, adds margins, borders, and padding
+*/
+img {
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Centering */
+    margin: 20px auto; /* Adds spacing */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #041a30; /* Border with deep blue color */
+    padding: 5px; /* Space inside the border */
+}
